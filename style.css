@@ -34,7 +34,6 @@ li{
    
 }
 
-
 #green{
     background-color: green;
     
@@ -44,21 +43,23 @@ li{
     background-color: yellow;
 }
 
-img{
-    width: 40%;
+.items{
+    width:30%;
+
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%, -50%);  
+}
+
+img{
+    width: 80%;
+    margin-left: 12%;
+    
 }
 
 h1{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 45px;
-    margin-top: 8%;
+    font-size: 28px;
     color: yellow;
     text-align: center;
 }
