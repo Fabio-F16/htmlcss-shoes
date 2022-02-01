@@ -4,21 +4,40 @@
     box-sizing: border-box;
 }
 
-.red{
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+nav{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+li{
+    display: inline-block;
+}
+#red{
     width: 100vw;
     height: 100vh;
     background-color: red;
     position: relative;
 }
 
-.green{
+#green{
     width: 100vw;
     height: 100vh;
     background-color: green;
     position: relative;
 }
 
-.yellow{
+#yellow{
     width: 100vw;
     height: 100vh;
     background-color: yellow;
@@ -42,9 +61,8 @@ h1{
     margin-top: 8%;
     color: yellow;
     text-align: center;
-    word-spacing: 15px;
 }
 
-.yellow h1{
+#yellow h1{
     color: green;
 }
