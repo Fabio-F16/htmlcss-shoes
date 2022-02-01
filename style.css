@@ -3,3 +3,48 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.red{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+.green{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    position: relative;
+}
+
+.yellow{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+img{
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+h1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    margin-top: 8%;
+    color: yellow;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.yellow h1{
+    color: green;
+}
