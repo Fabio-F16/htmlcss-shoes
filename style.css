@@ -29,23 +29,22 @@ li{
     height: 100vh;
     position: relative;
 }
-#red{
+.red{
     background-color: red;
    
 }
 
-#green{
+.green{
     background-color: green;
     
 }
 
-#yellow{
+.yellow{
     background-color: yellow;
 }
 
 .items{
     width:30%;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,8 +53,7 @@ li{
 
 img{
     width: 80%;
-    margin-left: 12%;
-    
+    margin-left: 12%;    
 }
 
 h1{
@@ -64,6 +62,6 @@ h1{
     text-align: center;
 }
 
-#yellow h1{
+.yellow h1{
     color: green;
 }
