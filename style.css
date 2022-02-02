@@ -8,6 +8,10 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 button{
     width: 20px;
     height: 20px;
@@ -34,6 +38,10 @@ nav li a{
     vertical-align: middle;
     background-color: white;
     text-decoration: none;
+}
+
+nav li a:hover{
+    transform: scale(1.2);
 }
 
 .screen{
